@@ -27,7 +27,7 @@ function Navbar() {
             </button>
              </div>
             <li className="hover:scale-125 duration-300 cursor-pointer">
-              <Link to="/Home">Home</Link>
+              <Link to="/Home">All</Link>
             </li>
 
             <li className="hover:scale-125 duration-300 cursor-pointer">
@@ -35,7 +35,7 @@ function Navbar() {
             </li>
 
             <li className="hover:scale-125 duration-300 cursor-pointer"> Add Address </li>
-            <li className="className="hover:scale-125 duration-300 cursor-pointer>Contact us</li>
+            <li className="hover:scale-125 duration-300 cursor-pointer">Contact us</li>
        
             <li className="hover:scale-125 duration-300 cursor-pointer"><AiOutlineUserAdd className="w-8 h-6"></AiOutlineUserAdd></li>
 
