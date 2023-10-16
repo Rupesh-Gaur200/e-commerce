@@ -25,8 +25,11 @@ function App() {
 
   return (
     <>
-      <RouterProvider router={router}/> 
-      <Footer></Footer>
+       <div className="flex flex-col min-h-screen">
+      <RouterProvider router={router} />
+      <Home></Home>
+      <Footer />
+    </div>
     </>
   )
 }
