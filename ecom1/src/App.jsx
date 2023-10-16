@@ -8,6 +8,7 @@ import {
 
 import Navbar from './Component/Navbar'
 import Home from './Component/Home'
+import Footer from './Component/Footer'
 
 
 
@@ -25,6 +26,7 @@ function App() {
   return (
     <>
       <RouterProvider router={router}/> 
+      <Footer></Footer>
     </>
   )
 }
