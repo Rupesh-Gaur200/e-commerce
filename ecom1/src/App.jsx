@@ -7,6 +7,7 @@ import {
 
 
 import Navbar from './Component/Navbar'
+import Home from './Component/Home'
 
 
 
@@ -14,7 +15,7 @@ import Navbar from './Component/Navbar'
 function App() {
   const router=createBrowserRouter(createRoutesFromElements(
     <Route element={<Navbar/>}>
-       <Route path='/' element={<Navbar/>}/>
+       <Route path='/' element={<Home/>}/>
       
 
     </Route>
