@@ -14,7 +14,7 @@ function Home({handleClick}) {
               <h4 className="sm:text-xl md:text-xl lg:text-xl font-semibold text-gray-700">
                 {data.title}
               </h4>
-              <p>${data.newPrice}</p>
+              <p>${data.price}</p>
             </div>
             <span>Company: {data.company}</span>
             <p>Reviews: {data.reviews}</p>

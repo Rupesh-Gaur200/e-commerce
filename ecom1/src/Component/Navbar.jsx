@@ -106,14 +106,14 @@ function Navbar({size}) {
 
 
              
-            <li className="hover:scale-125 duration-300 cursor-pointer flex"><AiOutlineShoppingCart className="w-8 h-6">
+            <Link to="./Cart" className="hover:scale-125 duration-300 cursor-pointer flex"><AiOutlineShoppingCart className="w-8 h-6">
               
               
         
               </AiOutlineShoppingCart>
               
               <span className="w-4 bg-red-500 rounded pl-1">{size}</span>
-              </li>
+              </Link>
 
 
             

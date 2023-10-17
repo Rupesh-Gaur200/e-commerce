@@ -7,11 +7,12 @@ const Data = [
       title: "Nike Air Monarch IV",
       
       reviews: "(123 reviews)",
-      prevPrice: "$140,00",
-      newPrice: "200",
+      amount:1,
+      price: "200",
       company: "Nike",
       color: "white",
       category: "sneakers",
+
     },
     {
       id:2,
@@ -19,8 +20,8 @@ const Data = [
       title: "Nike Air Vapormax Plus",
      
       reviews: "(123 reviews)",
-      prevPrice: "$140,00",
-      newPrice: "200",
+      amount:1,
+      price: "200",
       company: "Nike",
       color: "red",
       category: "sneakers",
@@ -30,10 +31,10 @@ const Data = [
       id:3,
       img: "https://m.media-amazon.com/images/I/51+P9uAvb1L._AC_UY695_.jpg",
       title: "Nike Waffle One Sneaker",
-     
+      amount:1,
       reviews: "(123 reviews)",
-      prevPrice: "$140,00",
-      newPrice: "200",
+      
+      price: "200",
       company: "Nike",
       color: "green",
       category: "sneakers",
@@ -42,10 +43,10 @@ const Data = [
       id:4,
       img: "https://m.media-amazon.com/images/I/71oEKkghg-L._AC_UX575_.jpg",
       title: "Nike Running Shoe",
-     
+      amount:1,
       reviews: "(123 reviews)",
-      prevPrice: "$140,00",
-      newPrice: "200",
+    
+     price: "200",
       company: "Adidas",
       color: "black",
       category: "sneakers",
@@ -54,10 +55,10 @@ const Data = [
       id:5,
       img: "https://m.media-amazon.com/images/I/41M54ztS6IL._AC_SY625._SX._UX._SY._UY_.jpg",
       title: "Flat Slip On Pumps",
-     
+      amount:1,
       reviews: "(123 reviews)",
-      prevPrice: "$140,00",
-      newPrice: "200",
+     
+      price: "200",
       company: "Vans",
       color: "green",
       category: "flats",
@@ -66,10 +67,10 @@ const Data = [
       id:6,
       img: "https://m.media-amazon.com/images/I/71zKuNICJAL._AC_UX625_.jpg",
       title: "Knit Ballet Flat",
-      
+      amount:1,
       reviews: "(123 reviews)",
-      prevPrice: "$140,00",
-      newPrice: "50",
+     
+     price: "50",
       company: "Adidas",
       color: "black",
       category: "flats",
@@ -81,8 +82,8 @@ const Data = [
       title: "Loafer Flats",
       
       reviews: "(123 reviews)",
-      prevPrice: "$140,00",
-      newPrice: "50",
+      amount:1,
+      price: "50",
       company: "Vans",
       color: "white",
       category: "flats",
@@ -92,10 +93,10 @@ const Data = [
       id:8,
       img: "https://m.media-amazon.com/images/I/71VaQ+V6XnL._AC_UY695_.jpg",
       title: "Nike Zoom Freak",
-      
+      amount:1,
       reviews: "(123 reviews)",
-      prevPrice: "$140,00",
-      newPrice: "200",
+    
+   price: "200",
       company: "Nike",
       color: "green",
       category: "sneakers",
@@ -105,10 +106,10 @@ const Data = [
       id:9,
       img: "https://m.media-amazon.com/images/I/61-cBsLhJHL._AC_UY695_.jpg",
       title: "Nike Men's Sneaker",
-     
+      amount:1,
       reviews: "(123 reviews)",
-      prevPrice: "$140,00",
-      newPrice: "200",
+      
+     price: "200",
       company: "Adidas",
       color: "blue",
       category: "sneakers",
@@ -118,10 +119,10 @@ const Data = [
       id:10,
       img: "https://m.media-amazon.com/images/I/81xXDjojYKS._AC_UX575_.jpg",
       title: "PUMA BLACK-OCE",
-      
+      amount:1,
       reviews: "(123 reviews)",
-      prevPrice: "$140,00",
-      newPrice: "150",
+      
+      price: "150",
       company: "Puma",
       color: "green",
       category: "sneakers",

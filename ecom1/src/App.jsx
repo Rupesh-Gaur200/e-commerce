@@ -12,6 +12,7 @@ import Deliver from './Component/Deliver';
 import Contact from './Component/Contact';
 
 import { useState } from 'react';
+import Cart from './Component/Cart';
 
 function App() {
 
@@ -38,7 +39,7 @@ function App() {
         <Route path='/' element={<Home handleClick={handleClick} />} />
         <Route path='/Deliver' element={<Deliver />} />
         <Route path='/Contact' element={<Contact />} />
-        
+        <Route path='/Cart' element={<Cart  cart={cart} setCart={setCart} handleChange={handleClick}/>} />
       </Route>
     )
   );
