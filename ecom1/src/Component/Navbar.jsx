@@ -8,6 +8,7 @@ import{MdArrowDropDown} from 'react-icons/md'
 import { useAuth0 } from "@auth0/auth0-react";
 
 import { useState } from "react";
+import Deliver from "./Deliver";
 
 function Navbar() {
 
@@ -15,6 +16,8 @@ function Navbar() {
   const { logout , isAuthenticated ,user} = useAuth0();
 
   const[showCategory , setCategory] = useState(false);
+
+  const[deliverto , setDeliver] =useState(false)
 
   
 
@@ -41,9 +44,9 @@ function Navbar() {
              <button><CiSearch className="w-8 h-6 hover:scale-125 duration-300 "></CiSearch>
             </button>
              </div>
-            {/* <li className="hover:scale-125 duration-300 cursor-pointer">
+             <Link to="/" className="hover:scale-125 duration-300 cursor-pointer">
               All
-            </li> */}
+            </Link> 
 
             <li className="hover:scale-125 duration-300 cursor-pointer  relative ">
 
@@ -65,11 +68,17 @@ function Navbar() {
              )}
             </li>
 
-            <li className="hover:scale-125 duration-300 cursor-pointer flex justify-center items-center">
+            <Link to="/Deliver" className="hover:scale-125 duration-300 cursor-pointer flex justify-center items-center relative">
             <span>Deliver to</span>
               <span><IoLocationOutline></IoLocationOutline></span>
-             </li>
-            <li className="hover:scale-125 duration-300 cursor-pointer">Contact us</li>
+
+              
+             
+
+
+
+             </Link>
+            <Link to='./Contact' className="hover:scale-125 duration-300 cursor-pointer">Contact us</Link>
        
 
 
