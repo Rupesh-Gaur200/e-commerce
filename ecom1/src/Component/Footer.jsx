@@ -1,5 +1,8 @@
-// Footer.js
+
 import React from 'react';
+ 
+import{AiFillInstagram , AiFillFacebook} from "react-icons/ai"
+
 
 function Footer() {
   return (
@@ -23,9 +26,9 @@ function Footer() {
           <h3 className="text-2xl font-bold mb-4">Follow Us</h3>
           <p>Stay connected on social media</p>
           <div className="mt-2">
-            <a href="#" className="text-2xl mr-4"><i className="fab fa-facebook"></i></a>
-            <a href="#" className="text-2xl mr-4"><i className="fab fa-twitter"></i></a>
-            <a href="#" className="text-2xl"><i className="fab fa-instagram"></i></a>
+            <a href="#" className="text-2xl mr-4"><AiFillInstagram></AiFillInstagram></a>
+            <a href="#" className="text-2xl mr-4"><AiFillFacebook></AiFillFacebook></a>
+           
           </div>
         </div>
       </div>
