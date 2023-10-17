@@ -10,7 +10,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 import { useState } from "react";
 import Deliver from "./Deliver";
 
-function Navbar() {
+function Navbar({size}) {
 
   const { loginWithRedirect } = useAuth0();
   const { logout , isAuthenticated ,user} = useAuth0();
@@ -106,7 +106,14 @@ function Navbar() {
 
 
              
-            <li className="hover:scale-125 duration-300 cursor-pointer"><AiOutlineShoppingCart className="w-8 h-6"></AiOutlineShoppingCart></li>
+            <li className="hover:scale-125 duration-300 cursor-pointer flex"><AiOutlineShoppingCart className="w-8 h-6">
+              
+              
+        
+              </AiOutlineShoppingCart>
+              
+              <span className="w-4 bg-red-500 rounded pl-1">{size}</span>
+              </li>
 
 
             
