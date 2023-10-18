@@ -32,12 +32,13 @@ const Cart = ({ cart, setCart, handleChange }) => {
               <p className="text-gray-500">${item.price}</p>
             </div>
           </div>
-          <div className="flex items-center">
-           
+          <div className="sm:flex items-center sm:gap-8">
+           <button  className="px-1 py-1 bg-blue-500 text-white rounded hover:bg-blue-600" onClick={()=>(handleChange(item , +1))}>+</button>
             <span className="mx-2">{item.amount}</span>
-           
+            <button  className="px-1 py-1 bg-red-500 text-white rounded hover:bg-red-600" onClick={()=>(handleChange(item ,-1))}>-</button>
+            
             <button
-              className="text-red-500 hover:text-red-600"
+              className="ml-1 text-red-500 hover:text-red-600"
               onClick={() => handleRemove(item.id)}
             >
               Remove
@@ -47,7 +48,7 @@ const Cart = ({ cart, setCart, handleChange }) => {
       ))}
       <div className="text-right mt-4">
         <p className="text-lg font-semibold">Total Price of Your Cart</p>
-        <p className="text-2xl text-blue-500">Rs - {price.toFixed(2)}</p>
+        <p className="text-2xl text-blue-500">Rs = {price.toFixed(2)}</p>
       </div>
  
 
