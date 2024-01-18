@@ -1,4 +1,4 @@
-[The project is deployed using netlify and here is the  Deployment Link :](https://eom-shop.netlify.app/){:target="_blank"}
+[The project is deployed using netlify and here is the  Deployment Link please click on it to view the project :](https://eom-shop.netlify.app/){:target="_blank"}
 
 **This is a Shoes e-com site **
 --where user can shop shoes as similar as buying from e-commerce site.
