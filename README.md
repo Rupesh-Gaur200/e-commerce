@@ -7,12 +7,12 @@ User
 
 <h2>This is a Shoes e-com site </h2>
 <ul>
---where user can shop shoes as similar as buying from e-commerce site.
---The website having responsive design , which fits in all type of screens.
---Made to learn and develop state mangement logics by implementing shopping cart functionality. 
---Also having auth0 authentication service , using which a user can login and logout to its profile.
---Connect with me feature :- it has contact us form which is fully working and if someone wants to connect to you or want to give feedback, it will mail to the admin of the web-site.
---User can Add multiple Address for the Delivery of the product.
+<li>where user can shop shoes as similar as buying from e-commerce site.</li>
+<li>The website having responsive design , which fits in all type of screens.</li>
+<li>Made to learn and develop state mangement logics by implementing shopping cart functionality.</li>
+<li>Also having auth0 authentication service , using which a user can login and logout to its profile.</li>
+<li>Connect with me feature :- it has contact us form which is fully working and if someone wants to connect to you or want to give feedback, it will mail to the admin of the web-site.</li>
+<li>User can Add multiple Address for the Delivery of the product.</li>
 </ul>
 
  Components 
