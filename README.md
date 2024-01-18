@@ -4,7 +4,7 @@ User
 Overview
 This is a Shoes E-Commerce site where users can shop for shoes in a manner similar to other online shopping platforms. The website boasts a responsive design that fits various screen sizes.
 
-**This is a Shoes e-com site **
+This is a Shoes e-com site 
 --where user can shop shoes as similar as buying from e-commerce site.
 --The website having responsive design , which fits in all type of screens.
 --Made to learn and develop state mangement logics by implementing shopping cart functionality. 
@@ -12,7 +12,7 @@ This is a Shoes E-Commerce site where users can shop for shoes in a manner simil
 --Connect with me feature :- it has contact us form which is fully working and if someone wants to connect to you or want to give feedback, it will mail to the admin of the web-site.
 --User can Add multiple Address for the Delivery of the product.
 
-** Components **
+ Components 
 --Cart.jsx - this component is created to display the shoping cart, which has add item and all the functionality of a shoping cart.
 --Contact.jsx - this component is created to display form or feedback and contact us form.
 --Data.js - The data is diplayed to the users like the price of the shoe its image, and all the information regarding the product.
