@@ -15,19 +15,22 @@ User
 <li>User can Add multiple Address for the Delivery of the product.</li>
 </ul>
 
- Components 
---Cart.jsx - this component is created to display the shoping cart, which has add item and all the functionality of a shoping cart.
---Contact.jsx - this component is created to display form or feedback and contact us form.
---Data.js - The data is diplayed to the users like the price of the shoe its image, and all the information regarding the product.
---Deliver.jsx - Here user can set the address for the delivery of the product.
---Footer.jsx - used to display the footer of the website.
---Home.jsx - Home page of the Website.
---Navbar.jsx - Navigation bar.
+ <h2>Components </h2>
+ <ul>
+<li>Cart.jsx - this component is created to display the shoping cart, which has add item and all the functionality of a shoping cart.</li>
+<li>Contact.jsx - this component is created to display form or feedback and contact us form.</li>
+<li>Data.js - The data is diplayed to the users like the price of the shoe its image, and all the information regarding the product.</li>
+<li>Deliver.jsx - Here user can set the address for the delivery of the product.</li>
+<li>Footer.jsx - used to display the footer of the website.</li>
+<li>Home.jsx - Home page of the Website.</li>
+<li>Navbar.jsx - Navigation bar.</li>
 
-** Hooks which are used **
---useState.
---useEffect.
+</ul>
 
-**for Css Style **
---Tailwind css .
---the site is fully responsive.
+<h2>Hooks which are used</h2>
+<li>useState.</li>
+<li>useEffect.</li>
+
+<h2>for Css Style</h2>
+<li>Tailwind css .</li>
+<li>the site is fully responsive.</li>
