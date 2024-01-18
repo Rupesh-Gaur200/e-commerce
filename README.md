@@ -28,9 +28,13 @@ User
 </ul>
 
 <h2>Hooks which are used</h2>
+<ul>
 <li>useState.</li>
 <li>useEffect.</li>
+</ul>
 
 <h2>for Css Style</h2>
+<ul>
 <li>Tailwind css .</li>
 <li>the site is fully responsive.</li>
+</ul>
