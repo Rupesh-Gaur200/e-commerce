@@ -1,6 +1,7 @@
 <h1>Shoes E-Commerce Website</h1>
-User
-[The project is deployed using netlify and here is the  Deployment Link please click on it to view the project :](https://eom-shop.netlify.app/){:target="_blank"}
+
+<h2>The project is deployed using netlify and here is the  Deployment Link please click on it to view the project :</h2>
+<a href="https://eom-shop.netlify.app/"target="_blank"></a>
 
 <h1>Overview</h1>
 <h2>This is a Shoes E-Commerce site where users can shop for shoes in a manner similar to other online shopping platforms. The website boasts a responsive design that fits various screen sizes.</h2>
